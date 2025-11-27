@@ -63,7 +63,7 @@ let racaPet = "SRD";
 let idadePet = 5;
 let vacinado = true;
 
-//vetores e matrizes
+//vetores
 let nomesPokemons = ["pikachu", "charmander", "bulbasauro"];
 console.log(nomesPokemons);
 console.log(nomesPokemons[0]);
@@ -71,3 +71,24 @@ nomesPokemons.pop(); //remove o ultimo elemento da array
 console.log(nomesPokemons);
 console.log(nomesPokemons.length); // 2 0,1,2
 console.log(nomesPokemons.length - 1); // 1 - ultimo
+
+//matrizes
+let timePokemon = [
+  ["pikachu", "m", "level 1"],
+  ["charmander", "f", "level 2"],
+];
+console.log(timePokemon[0]);
+console.log(timePokemon[0][0]); // linha - coluna
+console.log(timePokemon[0][1]); // linha 0 - coluna 1
+console.log(
+  "o pokemon " +
+    timePokemon[1][0] +
+    " é do sexo " +
+    timePokemon[1][1] +
+    " e está no " +
+    timePokemon[1][2]
+);
+
+//propriedades
+console.log(nomesPokemons.length); // quantas posicoes
+console.log();
