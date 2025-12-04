@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafios de código - Bootcamp Lógica de programação</title>
+</head>
+
+<body>
+  <section>
+    <h1>Desafio 1</h1>
+    <span>Você foi contratado para desenvolver um sistema de gerenciamento de contas. O sistema deve identificar o saldo total de todas as contas após uma série de depósitos e saques. Sua tarefa é implementar uma função que calcule esse saldo a partir das operações fornecidas.</span>
+
+    <h2>Entrada</h2>
+    <p>A entrada deve receber uma string com várias operações separadas por vírgulas. Cada operação terá o formato "tipo valor", onde "tipo" pode ser "deposito" ou "saque", e "valor" é um número inteiro representando o valor da operação.</p>
+
+    <h2>Saída</h2>
+    <p>Deverá retornar uma string com o saldo total das contas após todas as operações, formatado como um número inteiro.</p>
+
+    <h2>Exemplos</h2>
+    <p>A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.</p>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Entrada</th>
+          <th>Saída</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>deposito 100, saque 30, deposito 50</td>
+          <td>120</td>
+        </tr>
+        <tr>
+          <td>deposito 200, deposito 300, saque 100</td>
+          <td>400</td>
+        </tr>
+        <tr>
+          <td>saque 50, deposito 100, saque 20</td>
+          <td>30</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <h1>Desafio 2</h1>
+    <span>Você precisa criar um sistema que calcule o imposto sobre o salário de um funcionário de um banco. O imposto é de 10% sobre o valor superior a 3.000. Caso o salário seja inferior ou igual a 3.000, o imposto será de 5%.</span>
+
+    <h2>Entrada</h2>
+    A entrada será o valor do salário do funcionário.<br>
+
+    <h2>Exemplo: </h2>2000
+    O valor do salário será um número flutuante.<br>
+    <h2>Saída</h2>
+    Deverá retornar o valor do imposto a ser descontado do salário.<br>
+
+    Imposto calculado de acordo com as regras estabelecidas.<br>
+    <h2>Exemplos</h2>
+    <p>A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. <br>Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.</p>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Entrada</th>
+          <th>Saída</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2000</td>
+          <td>100.00</td>
+        </tr>
+        <tr>
+          <td>3500</td>
+          <td>50.00</td>
+        </tr>
+        <tr>
+          <td>5000</td>
+          <td>200.00</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </section>
+  <script src="./scripft.js"></script>
+</body>
+
+</html>
