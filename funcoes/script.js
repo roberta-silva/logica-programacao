@@ -62,3 +62,25 @@ function createStringConnection(databaseName, user, pass) {
     `connect:DBCONNECT;user=${user};pass=${pass};initial_database=${databaseName}`
   );
 }
+
+//funcoes com retorno
+let resultado = soma(5, 5);
+
+console.log(`o resultado dessa funcao é ${resultado}`);
+
+function soma(numA, numB) {
+  let somatorio = numA + numB;
+  return somatorio;
+}
+
+//exemplo return primeiro nome
+let userName = getFirstName("Roberta Silva", " ");
+console.log(`Seja bem-vindo(a) ${userName}`);
+
+userName = getFirstName("Maria-Joao-Silva", "-");
+console.log(`Seja bem-vindo(a) ${userName}`);
+
+function getFirstName(name, splitChar) {
+  let firstName = name.split(splitChar)[0]; // split vai quebrar o txt sempre que encontrar o caracter definido " " espaço
+  return firstName;
+}
